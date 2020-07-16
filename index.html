@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Freela - He4rtDevs</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <div id="header">
+          <h1>He4rt</h1>
+          <p>Calculadora de Freela</p>
+        </div>
+      </header>
+    </div>
+
+    <section id="dados">
+      <div id="calculadora">
+        <h2>Valor total</h2> <input type="number" name="Valor total" id="num-valor-total">
+        <h2>Horas por dia</h2> <input type="number" name="Horas por dia" id="num-horas-dia">
+        <h2>Dias por semana</h2> <input type="number" name="Dias por semana" id="num-dias-semana">
+        <h2>Dias de ferias</h2> <input type="number" name="Dias de ferias" id="num-dias-ferias">    
+        <button id="button" onclick="calcular()">Calcular</button>  
+      </div>
+      <div id="res">
+        Resultado
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
